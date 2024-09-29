@@ -1,5 +1,5 @@
 "use client";
-import { useSession } from "next-auth/react";
+{/*import { useSession } from "next-auth/react";*/}
 import Image from "next/image";
 import React from "react";
 import {
@@ -9,9 +9,9 @@ import {
   DropdownMenuTrigger,
 } from "../ui/dropdown-menu";
 import { Button } from "../ui/button";
-import { signOutAction } from "@/actions/auth-action";
+{/*import { signOutAction } from "@/actions/auth-action";*/}
 
-export default function UserProfile() {
+{/*export default function UserProfile() {
   const session = useSession();
 
   const imageUrl = session?.data?.user?.image;
@@ -53,3 +53,4 @@ export default function UserProfile() {
     </DropdownMenu>
   );
 }
+*/}
